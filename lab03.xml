@@ -1,0 +1,88 @@
+<<<<<<< HEAD
+<empolyees>
+    <empolyee>
+        <id sr="1">1</id> 
+        <first_name>John</first_name>
+        <last_name>Doe</last_name>
+    <address>
+        <house>38</house>
+        <road>3</road>
+        <area>Banani</area>
+        <city>Dhaka</city>
+    </address>
+        <department>Sales</department>
+        <salary>$20000</salary>
+    </empolyee>
+
+    <empolyee>
+        <id sr="2">2</id> 
+        <first_name>Mark</first_name>
+        <last_name>Zukerberg</last_name>
+    <address>
+        <flat>A/1</flat>
+        <house>20</house>
+        <road>18</road>
+        <area>Mirpur</area>
+        <city>Dhaka</city>
+    </address>
+        <department>Accounts</department>
+        <salary>$12000</salary>
+    </empolyee>
+
+    <empolyee>
+        <id sr="3">3</id> 
+        <first_name>Ala</first_name>
+        <last_name>Voski</last_name>
+    <address>
+        <house>38</house>
+        <road>3</road>
+        <area><Motijheel/area>
+    </address>
+        <department>Human Resource</department>
+        <salary>$30000</salary>
+    </empolyee>
+=======
+<empolyees>
+    <empolyee>
+        <id sr="1">1</id> 
+        <first_name>John</first_name>
+        <last_name>Doe</last_name>
+    <address>
+        <house>38</house>
+        <road>3</road>
+        <area>Banani</area>
+        <city>Dhaka</city>
+    </address>
+        <department>Sales</department>
+        <salary>$20000</salary>
+    </empolyee>
+
+    <empolyee>
+        <id sr="2">2</id> 
+        <first_name>Mark</first_name>
+        <last_name>Zukerberg</last_name>
+    <address>
+        <flat>A/1</flat>
+        <house>20</house>
+        <road>18</road>
+        <area>Mirpur</area>
+        <city>Dhaka</city>
+    </address>
+        <department>Accounts</department>
+        <salary>$12000</salary>
+    </empolyee>
+
+    <empolyee>
+        <id sr="3">3</id> 
+        <first_name>Ala</first_name>
+        <last_name>Voski</last_name>
+    <address>
+        <house>38</house>
+        <road>3</road>
+        <area><Motijheel/area>
+    </address>
+        <department>Human Resource</department>
+        <salary>$30000</salary>
+    </empolyee>
+>>>>>>> 85a0f1f7b4447ea30760e1488f190369dfd24a13
+</empolyees> 
