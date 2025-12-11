@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Submission Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Photo Submission</h1>
+
+        <form id="submissionForm">
+            <section class="form-section">
+                <h2>Primary Submission</h2>
+                
+                <div class="form-group">
+                    <label for="primaryPhoto">Upload Main Photo (JPG/PNG only):</label>
+                    <input type="file" id="primaryPhoto" name="primaryPhoto" accept=".jpg, .jpeg, .png" required>
+                    <small class="error-message" id="primaryPhotoError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Photo Description:</label>
+                    <textarea id="description" name="description" rows="4" maxlength="500" required></textarea>
+                    <small>Max 500 characters.</small>
+                </div>
+            </section>
+            
+            <section class="form-section">
+                <h2>Category & Exhibition </h2>
+
+                <div class="form-group">
+                    <label for="category">Select Category:</label>
+                    <select id="category" name="category" required>
+                        <option value=""> Choose Category </option>
+                        <option value="landscape">Landscape</option>
+                        <option value="portrait">Portrait</option>
+                        <option value="abstract">Abstract</option>
+                        <option value="wildlife">Wildlife</option>
+                        <option value="Street">Strret</option>
+                    </select>
+                    <small class="error-message" id="categoryError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="exhibitionType">Select Exhibition Type:</label>
+                    <select id="exhibitionType" name="exhibitionType" required>
+                        <option value="">-- Choose Exhibition Type --</option>
+                        <option value="monthly">Monthly Competition</option>
+                        <option value="annual">Annual Showcase</option>
+                        <option value="theme">Themed Event</option>
+                    </select>
+                    <small class="error-message" id="exhibitionTypeError"></small>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>Photo Story (Optional Multi-Image Upload)</h2>
+                <p>You can upload 5 to 10 additional images to accompany your main photo.</p>
+                <div class="form-group">
+                    <label for="storyPhotos">Upload Companion Photos (5-10 images):</label>
+                    <input type="file" id="storyPhotos" name="storyPhotos" multiple accept=".jpg, .jpeg, .png">
+                    <small class="error-message" id="storyPhotosError"></small>
+                </div>
+            </section>
+
+            <button type="submit">Submit Photo</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
